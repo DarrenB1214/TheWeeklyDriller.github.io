@@ -1,0 +1,140 @@
+.jumbotron {
+	text-align: center;
+	background-image: url('../images/background.jpg');
+  }
+
+.display-3 {
+	color: #1aa3ff;
+	font-style: bold;
+}
+
+.lead {
+	color: #0099ff;
+}
+
+.btn {
+	background-color: #007bff;
+	border-color: #006ee5;
+}
+
+.btn:hover {
+	background-color: #0062cc;
+	border-color: #004999;
+}
+
+.btn:active {
+	background-color: #0062cc;
+	border-color: #004999;
+}
+
+.text-muted {
+	font-size: 50px;
+	font-family: 'Orbitron-Bold','Arvo','Monoton', cursive;
+	color: #000000;
+}
+
+.container nav {
+	font-size: 30px;
+}
+
+.container h4 {
+	font-family: 'Droid Serif-Bold','Arvo', serif;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#back-to-top a {
+	color: #333;
+}
+
+#Disclaimers {
+	font-size: 7px;
+}
+
+
+/*Phone Responsive Screen*/
+
+@media (max-width: 1199px) { 
+
+	.jumbotron h1 {
+		font-size: 56px;
+		margin-bottom: 30px;
+	}
+
+	.jumbotron p {
+		font-size: 35px;
+		padding: 0;
+	}
+
+	.nav-item {
+		font-size: 35px;
+	}
+
+	.text-muted {
+		font-size: 45;
+	}
+
+}
+
+@media (max-width: 991px) { 
+
+	.jumbotron h1 {
+		font-size: 44px;
+	}
+
+	.jumbotron p {
+		padding: 0 10px;
+	}
+
+	.nav-item {
+		font-size: 25px;
+	}
+
+	.text-muted {
+		font-size: 35px;
+	}
+
+	#get-involved {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	.jumbotron h1 {
+		font-size: 24px;
+	}
+
+	.jumbotron p {
+		font-size: 16px;
+		padding: 0;
+	}
+
+	.btn-lg {
+		font-size: 18px;
+	}
+
+	.homepage p {
+		font-size: 18px;
+	}
+
+	.nav-item {
+		font-size: 15px;
+	}
+
+	.text-muted {
+		font-size: 25px;
+	}
+
+	#get-involved {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+}
